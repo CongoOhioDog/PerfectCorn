@@ -746,6 +746,7 @@ do
 		local Value = Instance.new("TextLabel")
 		Value.Name = "Value"
 		Value.FontFace = Font.new(Font:GetRegistry("UI_FONT"))
+	        Value.RichText = true
 		Value.Text = message
 		Value.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Value.TextSize = 12
