@@ -928,6 +928,7 @@ do
 			Title.Text = Window.Name
 			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title.TextSize = 12
+			Title.RichText = true
 			Title.TextStrokeTransparency = 0
 			Title.TextXAlignment = Enum.TextXAlignment.Left
 			Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
